@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Tower</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Treasure Tower</h1>
+        <p>Spin to win, and climb the tower for huge rewards!</p>
+        <button id="play-btn">Play Now</button>
+    </header>
+
+    <section id="game-section" style="display:none;">
+        <h2>Treasure Tower Slot Machine</h2>
+        <div id="slot-machine">
+            <div class="slot">💎</div>
+            <div class="slot">💰</div>
+            <div class="slot">🎁</div>
+        </div>
+        <button id="spin-btn">Spin</button>
+        <p id="result"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Treasure Tower. Gamble responsibly.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
